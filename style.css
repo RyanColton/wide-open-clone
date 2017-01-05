@@ -1,0 +1,308 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+p{
+  text-align: center;
+}
+
+.header{
+
+}
+
+.head-div {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  position:fixed;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  align-content: space-around;
+  z-index: 500;
+
+
+}
+
+.logo{
+  margin-left: 30px;
+  width: 150px;
+}
+
+.button{
+  margin-right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+
+.jumbotron{
+  font-family: 'Oswald', sans-serif;
+}
+
+.title{
+  height: 500px;
+  width:100%;
+  background-image: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  flex-flow: column;
+  color: white;
+}
+
+.workshop{
+  width:100%;
+  height: 300px;
+  vertical-align:middle;
+  text-align:center;
+  margin-top:400px;
+  letter-spacing: 1px;
+}
+
+.your{
+  font-size:22px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.big-title{
+  font-size: 136.6px;
+  margin: -20px;
+  font-weight: 300;
+
+}
+
+.learn-more{
+  width:550px;
+  height: 50px;
+  background-color: #bdd436;
+  border-radius: 25px;
+  margin:40px;
+  margin-bottom: 55px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.p-learn{
+  font-size:18px;
+  margin:12px;
+  font-family:'lato', sans-serif;
+  font-weight: 700;
+  color: white;
+
+}
+
+.how-it{
+  background-color: #f0f0f0;
+  padding: 1px;
+  position: relative;
+}
+
+.how-div-main{
+  width: 100%;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.how-text{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6A787C;
+  font-weight: normal;
+  margin-top: 40px;
+
+}
+
+.works-text-div{
+  margin-top: -25px;
+
+}
+
+.works-text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  color:#6A787C;
+}
+
+.icons-info{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 1500px;
+
+  flex-flow: column;
+
+}
+
+.icons-text{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #97A2A7;
+}
+
+.icon-link-text{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #bdd436;
+
+}
+
+.lightbulb{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-around;
+  flex-flow: column;
+
+}
+
+.li-icon{
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+
+.little-arrow{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px
+}
+
+.arrow{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-around;
+  flex-flow: column;
+
+}
+
+.power-button{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-around;
+  flex-flow: column;
+}
+
+.can-help{
+  width: 100%;
+  height: 1100px;
+  background-color: #f0f0f0;
+}
+
+.can-help-body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 1000px;
+}
+
+.can-header{
+  color: #40666d;
+  padding-top: 5px;
+  font-weight: 300;
+}
+
+
+.header-text{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6A787C;
+  font-weight: normal;
+}
+
+.can-flex-column{
+  display: flex;
+  align-items:center;;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.can-box{
+  background-color: white;
+  width: 100%;
+  margin:10px
+}
+
+.can-contact-us{
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #bdd436;
+  margin-top: 40px;
+}
+
+.lets-talk{
+  background-color: #40666d;
+  width: 100%;
+  height: 300px;
+  padding-top: 35px;
+
+}
+
+.talk-body-div{
+
+}
+.talk-email-us{
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #bdd436;
+  margin-top: 40px;
+}
+
+.talk-text-p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 28px;
+  color: white;
+}
+
+.spacer{
+    width: 48px;
+    border-top: none;
+    height: 4px;
+    background-color: #bdd537;
+    color: #bdd537;
+}
+
+.footer{
+
+}
+
+.p-foot{
+  color: #6A787C;
+  margin: 1.5em 0;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+}
+
+.a-privacy{
+  color: #bdd537;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
