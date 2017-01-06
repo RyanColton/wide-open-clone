@@ -36,7 +36,9 @@ p{
   height: 30px;
   background-color: grey;
 }
-
+.header-menu{
+  display: none;
+}
 .jumbotron{
   font-family: 'Oswald', sans-serif;
 }
@@ -136,9 +138,7 @@ p{
   width: 100%;
   background-color: white;
   height: 1500px;
-
   flex-flow: column;
-
 }
 
 .icons-text{
@@ -146,6 +146,7 @@ p{
   font-size: 18px;
   font-weight: normal;
   color: #97A2A7;
+  margin: 10px;
 }
 
 .icon-link-text{
@@ -250,6 +251,35 @@ p{
   margin-top: 40px;
 }
 
+.c-learn{
+  font-size:18px;
+  padding-top:12px;
+  font-family:'lato', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.companies{
+
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+
+}
+
+.comp-img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4px;
+}
+
+.w-h-companies{
+  max-width:100%;
+  max-height:100%;
+}
+
 .lets-talk{
   background-color: #40666d;
   width: 100%;
@@ -289,7 +319,6 @@ p{
 }
 
 .footer{
-
 }
 
 .p-foot{
@@ -305,4 +334,86 @@ p{
   color: #bdd537;
   letter-spacing: 1px;
   font-size: 10px;
+}
+
+@media (min-width:1000px) {
+    .button{
+    display: none;
+    }
+    .header-menu{
+      display: inline;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color:grey;
+      margin-right: 10px;
+    }
+    .icons-info{
+      display: flex;
+      width: 100%;
+      background-color: white;
+      height: 500px;
+      flex-flow: row;
+    }
+    .arrow{
+      border-width: 0px, 1px, 0px, 1px;
+      border-color: grey;
+    }
+    .can-help{
+      width: 100%;
+      height: 850px;
+      background-color: #f0f0f0;
+    }
+    .can-flex-column{
+      display: flex;
+      flex-flow: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      height: 500px;
+    }
+    .can-box{
+      background-color: white;
+      width: 350px;
+
+    }
+
+    .media-box-rules1{
+          height: 230px;
+    }
+
+    .media-box-rules2{
+          height: 228px;
+    }
+    .header-text{
+      font-size: 24px;
+      font-family: 'Open Sans', sans-serif;
+      color: #6A787C;
+      font-weight: normal;
+    }
+
+    .companies{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 440px;
+
+
+
+    }
+
+    .comp-img{
+      width:calc(100% / 3);
+
+
+    }
+
+    .w-h-companies{
+      max-width:100%
+      max-height:100%
+
+    }
+
 }
